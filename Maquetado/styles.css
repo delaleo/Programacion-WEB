@@ -1,0 +1,94 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header {
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+        .menu {
+            background: #bb6464;
+            display: flex;
+            height: 100px;
+            align-items: center;
+        }
+
+                .logo {
+                    background: #c8f2ef;
+                    flex: 1 1 auto;
+                    height: 30px;
+                }
+
+                .nav {
+                    background: #c8f2ef;
+                    flex: 5 1 auto;
+                    height: 30px;
+                }
+
+                .social {
+                    background: #c8f2ef;
+                    flex: 1 1 auto;
+                    height: 30px;
+                }
+
+                .texto-principal {
+                    background: #8a39e1;
+                }
+                   h1 {
+                    background: #ecc488;
+                    }
+
+.section {
+    background: #000;
+    display: flex;
+}
+
+    .articulos {
+        background: #ff9f45;
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+/* diferencia entre porcentaje y auto del flow */
+article {
+    background: #bf9270;
+    flex: 1 1 40%;
+}
+
+    .navegacion {
+        background: #edcdbb;
+        flex: 1 1 100%;
+    }
+
+    aside {
+        background: #fc4f4f;
+        flex: 1 1 auto;
+    }
+
+        .publicidad {
+            background: #b33030;
+        }
+
+.footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+    .pie {
+        background: #f3c5c5;
+        width: 300px;      
+    }
+
+
+  
